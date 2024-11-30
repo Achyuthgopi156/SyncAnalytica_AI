@@ -163,7 +163,7 @@ def generate_report():
         st.success("Report saved to 'report.html'")
         st.write("The report has been saved locally as `report.html`.")
 
-    api_key = "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"  # Replace with your actual API key
+    api_key = "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"  # Replace with your actual API key
     client = initialize_groq_client(api_key)
 
     try:
