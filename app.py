@@ -172,7 +172,7 @@ def generate_report():
             mime="text/html"
         )
         
-    api_key = "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"  # Replace with your actual API key
+    api_key = "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"  
     client = initialize_groq_client(api_key)
 
     try:
